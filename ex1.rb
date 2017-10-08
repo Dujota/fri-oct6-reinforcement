@@ -89,3 +89,14 @@ class Cohort
   end
 
 end
+
+team_robocop = Cohort.new(Date.new(2017,9,11))
+
+puts "\n"
+p team_robocop
+puts "\n"
+p team_robocop.coffee_code_days
+puts "\n"
+p team_robocop.class_days
+puts "\n"
+p team_robocop.weeks_of_cohort
